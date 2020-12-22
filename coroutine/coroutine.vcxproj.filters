@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{9e29e74f-65e7-4e96-89f8-96d192d05068}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\coroutine_yield.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\coroutine_await.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="test_await.cpp" />
+    <ClCompile Include="test_yield.cpp" />
+  </ItemGroup>
+</Project>
